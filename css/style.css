@@ -1,0 +1,121 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /* font-family: Arial, Helvetica, sans-serif; */
+      color: white;
+  }
+
+  body {
+      background: url('../img/background.jpg');
+      /*no-repeat center center/cover*/
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      /* background-position: center; */
+  }
+
+  .navigationmenu div ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      font-size: 1rem;
+  }
+
+  .navigationmenu li {
+      list-style: none;
+      margin: 1rem;
+  }
+
+  /* .navigationmenu li a {
+      text-decoration: none;
+  } */
+
+  .navigationmenu li a:hover,
+  .navigationmenu li a.active {
+      color: rgba(16, 163, 127, 1);
+      text-decoration: underline;
+  }
+
+  .headersection {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .logo img {
+      filter: invert(100);
+      width: 100px;
+  }
+
+  .btn {
+      background-color: rgba(16, 163, 127, 1);
+      cursor: pointer;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      transition: background-color 0.75s;
+  }
+
+  .btn:hover {
+      background-color: gray;
+  }
+
+  .maincontainer {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .subcontainer {
+      margin-top: 1rem;
+  }
+
+  .btndiv {
+      text-align: center;
+  }
+
+  .form-item input,
+  textarea {
+      background-color: transparent;
+      color: white;
+      width: 300px;
+      border: 1px solid gray;
+      padding: 1%;
+  }
+
+  label {
+      display: block;
+  }
+
+  .form-item {
+      margin: 1rem;
+  }
+
+  #male,
+  #female {
+      display: inline-block;
+      width: 1rem;
+  }
+
+  .male,
+  .female {
+      display: inline-block;
+  }
+
+  .form-item ::placeholder {
+      color: white;
+      text-align: center;
+  }
+
+  #copyright {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
